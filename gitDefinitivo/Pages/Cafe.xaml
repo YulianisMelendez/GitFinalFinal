@@ -1,0 +1,71 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gitDefinitivo.Pages.Cafe"
+             Title="Cafe">
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label Text="Datos Curiosos sobre el Café"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" 
+               TextColor="Brown" 
+               FontSize="20"/>  
+
+            <Frame 
+                Margin="0" 
+                Padding="15" 
+                BackgroundColor="#ffebcd" 
+                BorderColor="#8b4513" 
+                CornerRadius="10" 
+                HasShadow="True">
+                <Label 
+                Text="El café es la segunda mercancía más comercializada en el mundo después del petróleo."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="#4b3b2e" 
+                FontSize="14"
+                LineBreakMode="WordWrap" />
+            </Frame>
+
+
+
+            <Frame 
+                Margin="0" 
+                Padding="15" 
+                BackgroundColor="#ffebcd" 
+                BorderColor="#8b4513" 
+                CornerRadius="10" 
+                HasShadow="True">
+                <Label 
+                Text="El café más caro del mundo, llamado 'Kopi Luwak', se obtiene a partir de granos que han sido ingeridos y excretados por civetas."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="#4b3b2e" 
+                FontSize="14"
+                LineBreakMode="WordWrap" />
+            </Frame>
+
+            <Frame 
+                Margin="0" 
+                Padding="15" 
+                BackgroundColor="#ffebcd" 
+                BorderColor="#8b4513" 
+                CornerRadius="10" 
+                HasShadow="True">
+                <Label 
+                Text="El café es una fruta,a pesar de que se le llama 'grano', el café en realidad es una fruta. "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="#4b3b2e" 
+                FontSize="14"
+                LineBreakMode="WordWrap" />
+            </Frame>
+
+        </VerticalStackLayout>
+        
+    </ScrollView>
+
+
+</ContentPage>

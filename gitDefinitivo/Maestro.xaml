@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="gitDefinitivo.Maestro"
              Title="Maestro">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ScrollView>
+
+        <VerticalStackLayout >
+
+            <Button Text="Datos curiosos cafe"
+             Clicked="GoToCafePage"
+             Margin="20,10"/>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
