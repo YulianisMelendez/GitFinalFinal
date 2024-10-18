@@ -28,6 +28,13 @@ namespace gitDefinitivo;
     {
 
         NavigationToPage(new Cafe());
+        
+         OcultarDetalles();
+    }
+    private void GoToPaisesPage(object sender, EventArgs e)
+    {
+
+        NavigationToPage(new Paises());
 
         OcultarDetalles();
     }
@@ -42,6 +49,7 @@ namespace gitDefinitivo;
 
         OcultarDetalles();
     }
+
 
 
 }

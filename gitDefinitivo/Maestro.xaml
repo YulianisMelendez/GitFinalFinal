@@ -18,9 +18,14 @@
              Margin="20,10">
             </Button>
 
+            <Button Text="Dato curioso 2"
+            Clicked="GoToPaisesPage"
+            Margin="20,10"/>
+
 
 
         </VerticalStackLayout>
     </ScrollView>
 
+   
 </ContentPage>
