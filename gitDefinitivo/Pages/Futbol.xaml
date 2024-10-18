@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gitDefinitivo.Pages.Futbol"
+             Title="Futbol">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label Text="Datos curiosos sobre El futbol"
+            VerticalOptions="Center" 
+             HorizontalOptions="Center" 
+             TextColor="White" 
+             FontSize="20"/>
+
+            <Frame 
+     Margin="0" 
+     Padding="15" 
+     BackgroundColor="#f0f8ff" 
+     BorderColor="#007acc" 
+     CornerRadius="10" 
+     HasShadow="True">
+                <Label 
+         Text="En 2002, en un partido oficial de la liga de Madagascar, el AS Adema venció al SO l'Emyrne por un increíble marcador de 149-0. Lo curioso es que los jugadores del equipo perdedor anotaron todos los goles en propia puerta como protesta contra una decisión arbitral."
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" 
+         TextColor="#333" 
+         FontSize="14"
+         LineBreakMode="WordWrap" />
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
