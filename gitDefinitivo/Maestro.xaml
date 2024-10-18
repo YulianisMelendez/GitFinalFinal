@@ -8,6 +8,17 @@
 
         <VerticalStackLayout >
 
+             <Label Text="CURIOSIDADES"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="Navy"/>
+
+            <Image Source="jorge.png"/>
+            <Button Text="Programacion"
+                    Clicked="Programacion_Clicked"
+                    Margin="20,10">
+            </Button>
+
             <Button Text="Datos curiosos cafe"
              Clicked="GoToCafePage"
              Margin="20,10"/>
@@ -28,4 +39,5 @@
     </ScrollView>
 
    
+    
 </ContentPage>
