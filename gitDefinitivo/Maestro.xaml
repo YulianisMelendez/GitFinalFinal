@@ -3,10 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="gitDefinitivo.Maestro"
              Title="Maestro">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+
+        <VerticalStackLayout >
+            <Label Text="CURIOSIDADES"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="Navy"/>
+
+            <Image Source="jorge.png"/>
+            <Button Text="Programacion"
+                    Clicked="Programacion_Clicked"
+                    Margin="20,10">
+            </Button>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

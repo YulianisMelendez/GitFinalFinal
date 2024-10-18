@@ -1,4 +1,3 @@
-
 namespace gitDefinitivo;
 
 public partial class Inicial : FlyoutPage

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using gitDefinitivo.Pages;
 using Microsoft.Maui.Controls;
 
 namespace gitDefinitivo;
@@ -23,6 +24,10 @@ namespace gitDefinitivo;
         App.FlyoutPage.IsPresented = false;
     }
 
-
+    private void Programacion_Clicked(object sender, EventArgs e)
+    {
+        NavigationToPage(new ProgramacionPage());
+        OcultarDetalles();
+    }
 
 }

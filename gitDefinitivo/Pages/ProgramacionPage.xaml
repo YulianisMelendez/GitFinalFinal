@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gitDefinitivo.Pages.ProgramacionPage"
+             Title="DATOS CURIOSOS">
+
+    <StackLayout Padding="10">
+        <!-- Título principal -->
+        <Label Text="Datos Curiosos Perturbadores sobre Programación" 
+               FontSize="24" 
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <!-- Lista de datos curiosos -->
+        <CollectionView ItemsSource="{Binding CuriositiesList}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="5" Margin="5" BackgroundColor="LightGray">
+                        <!-- Título del dato curioso -->
+                        <Label Text="{Binding Title}" 
+                               FontSize="18"
+                               FontAttributes="Bold"/>
+
+                        <!-- Detalles del dato curioso -->
+                        <Label Text="{Binding Description}" 
+                               FontSize="14" 
+                               TextColor="Gray"
+                               Padding="5"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
