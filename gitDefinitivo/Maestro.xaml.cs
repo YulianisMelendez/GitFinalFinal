@@ -33,6 +33,15 @@ namespace gitDefinitivo;
     }
 
    
+    
+
+    private void GoToFutbolPage(object sender, EventArgs e)
+    {
+
+        NavigationToPage(new Futbol());
+
+        OcultarDetalles();
+    }
 
 
 }
