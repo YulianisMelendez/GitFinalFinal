@@ -4,9 +4,8 @@
              x:Class="gitDefinitivo.Maestro"
              Title="Maestro">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Button Text="Dato curioso 2"
+    Clicked="GoToPaisesPage"
+    Margin="20,10"/>
     </VerticalStackLayout>
 </ContentPage>
